@@ -1,0 +1,23 @@
+#include <stdio.h>
+main()
+{
+    int x, y;
+    printf("digite um numero\n");
+    scanf("%d",&x);
+    printf("digite outro numero:\n");
+    scanf("%d",&y);
+    if(x>y)
+    {
+        printf("%d é maior que %d", x, y);
+    }
+    else
+        if(x<y)
+    {
+        printf("%d é maior que %d", y, x);
+    }
+        else
+        {
+            printf("São iguais");
+        }
+    return 0;
+}
