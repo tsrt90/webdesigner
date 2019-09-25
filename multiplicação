@@ -1,0 +1,15 @@
+#include <stdio.h>
+main()
+{
+    int x, y, w;
+    printf("digite um numero\n");
+    scanf("%d",&x);
+    printf("digite outro numero:\n");
+    scanf("%d",&y);
+    x=x*4;
+    y=y*3;
+    printf("A mulplicação por 4 é %d\n!",x);
+    printf("A mulplicação por 3 é %d!",y);
+ 
+    return 0;
+}
